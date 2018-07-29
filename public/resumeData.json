@@ -1,0 +1,205 @@
+{
+  "main": {
+    "name":"Aditya Shah",
+    "occupation":"Student",
+    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "image":"profilepic.jpg",
+    "bio":"Lorem ipsum dolor sit amet, ei sed labore aliquid eligendi. At agam virtute vix. Ex idque tantas pri. Ea mei probo posidonium instructior, mel id habemus mentitum menandri, an nec dictas legimus deserunt. At quo tale mollis latine, dicat vivendo ius no, in pri labore aliquam noluisse. An hinc omnium fuisset sed.",
+    "contactmessage":"Right now the contact is not service integrated. Please use mail or other medium",
+    "email": "adityashah3996@gmail.com",
+    "phone": "7689996342",
+    "address":{
+      "street":"6 & 7, Samridhi, Wasa Layout",
+      "city":"Bengaluru",
+      "state":"karnataka",
+      "zip": "560037"
+    },
+    "website": "",
+    "resumedownload":"",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/aditya.shah.56481",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"https://twitter.com/Aditya_3996",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://linkedin.com/in/aditya-shah-753a46145/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/Aditya-Shah",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Some technologies I've worked with.",
+    "education":[
+      {
+        "school":"Birla Institue of Technoilogy and Sciences, Pilani",
+        "degree":"M.Sc. Mathematics and B.E. Computer Science",
+        "graduated":"August 2014 - Present",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      },
+      {
+        "school":"Symbiosis School, Nashik",
+        "degree":"What did you study 101",
+        "graduated":"March 2014",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      }
+    ],
+    "work":[
+      {
+        "company":"Qubole",
+        "title":"Intern",
+        "years":"July 2018 - Present",
+        "description":"Hive Team"
+      },
+      {
+        "company":"D.E.Shaw India",
+        "title":"Summer Intern",
+        "years":"May 2018 - July 2018",
+        "description":"Evaluated some of the open-source libraries for mobile-specific UI components based on React and Integrated them in the DESCO JavaScript Stack. Setup two full-stack app for InOut (leave management portal) and DESFlow (Request Tracker) mobile revamped version show casing the new UI components."
+      },
+      {
+        "company":"Web Intelligence and Social Computing Lab, BITS Pilani",
+        "title":"Research Assistant",
+        "years":"August 2017 - December 2017",
+        "description":"Worked under Dr. Yashvardhan Sharma on Event Extraction from code mixed data(Hindi, Malayalam, and Tamil) of social media text."
+      },
+      {
+        "company":"NcflexE, IIT Kanpur",
+        "title":"Surge Research Intern",
+        "years":"May 2017 - July 2017",
+        "description":"Worked under Dr. Deepak Gupta to develop a Cost-Effective Anti-counterfeiting technology. My project involved identifying 3D textures, authenticating images and generating signatures of images for indexing and searching. This was a part of the larger project to commercialize a patented lab implementation to tackle counterfeiting problem for any product that is being sold anywhere, with the plan to move it out of the IITK lab in the form of an independent startup entity."
+      },
+      {
+        "company":"Bhaskaracharya Institute for Space Applications and Geo-Informatics, Gandhi Nagar",
+        "title":"Summer Intern",
+        "years":"May 2018 - July 2018",
+        "description":"Worked on Vehicle Detection to analyze traffic flow within the campus. Developed a system in which given a video, vehicles are detected in each frame using SVM and Haar Cascade Algorithm. The system ran on Distributed File System for large-scale data processing using Dumbo API."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Git",
+        "level":"70%"
+      },
+      {
+        "name":"Tensorflow",
+        "level":"60%"
+      },
+      {
+        "name":"Keras",
+        "level":"70%"
+      },
+      {
+        "name":"OpenCV",
+        "level":"60%"
+      },
+      {
+        "name":"DataScience",
+        "level":"70%"
+      },
+      {
+        "name":"ReactJS",
+        "level":"70%"
+      },
+      {
+        "name":"Redux",
+        "level":"70%"
+      }
+    ],
+    "projects":[
+      {
+        "title":"Adversarial Neural Cryptography",
+        "time":"Aug 2017 - Dec 2017",
+        "description":"Implemented Learning to Protect Communications with Adversarial Neural Cryptography by Martín Abadi, David G. Andersen as a part of the course project"
+      },
+      {
+        "title":"Network In Network",
+        "time":"Jan 2018 - May 2018",
+        "description":"Implemented Networks in networks by Min Lin, Qiang Chen, Shuicheng Yan as a part of course project."
+      },
+      {
+        "title":"Biometric Iris Recognition for Low Quality Distance Iris Images",
+        "time":"Jan 2017 - May 2017",
+        "description":"(Guide: Prof Kamlesh Tiwari, Assistant professor, Dept. of Computer Science, BITS Pilani.) Used Haar Cascade Classifiers and Histogram of Oriented Gradients (HOG) for eye segmentation followed by thresholding and occlusion removal then using Gabor filters and Hamming Distance for normalization and matching."
+      },
+      {
+        "title":"Forecasting Renewable Energy Resources",
+        "time":"Jan 2018 - May 2018",
+        "description":"(Guide: Sumanta Pasari, Assistant professor, Dept. of Mathematics, BITS Pilani.) Forecasting Wind speed, temperature and Pressure from data obtained from Charanka Power Plant, Gujarat Using ARIMA models and Recurrent Neural Networks with LSTM."
+      },
+      {
+        "title":"Advanced Scheduling Algorithms",
+        "time":"Aug 2016 - Dec 2016",
+        "description":"(Guide: Dr Rakhee, Associate professor, Dept. of Mathematics, BITS Pilani.) Developed a library of scheduling algorithms (operation research) covering single machine, parallel machine and shop scheduling in python"
+      },
+      {
+        "title":"Other Projects",
+        "time":"",
+        "description":" Created a Compiler in C for a dummy language as part of Compiler Construction Course, Implemented DBSCAN using functional programming language Scheme, Wave Generator in Assembly, Algebraic expression simplifier and college constitution in Prolog"
+      }
+      
+    ]
+  },
+  "portfolio":{
+    "projects": [
+    ]
+  },
+  "projects":{
+    "projects":[
+      {
+        "title":"Adversarial Neural Cryptography",
+        "time":"Aug 2017 - Dec 2017",
+        "description":"Implemented Learning to Protect Communications with Adversarial Neural Cryptography by Martín Abadi, David G. Andersen as a part of the course project"
+      },
+      {
+        "title":"Network In Network",
+        "time":"Jan 2018 - May 2018",
+        "description":"Implemented Networks in networks by Min Lin, Qiang Chen, Shuicheng Yan as a part of course project."
+      },
+      {
+        "title":"Biometric Iris Recognition for Low Quality Distance Iris Images",
+        "time":"Jan 2017 - May 2017",
+        "description":"(Guide: Prof Kamlesh Tiwari, Assistant professor, Dept. of Computer Science, BITS Pilani.) Used Haar Cascade Classifiers and Histogram of Oriented Gradients (HOG) for eye segmentation followed by thresholding and occlusion removal then using Gabor filters and Hamming Distance for normalization and matching."
+      },
+      {
+        "title":"Forecasting Renewable Energy Resources",
+        "time":"Jan 2018 - May 2018",
+        "description":"(Guide: Sumanta Pasari, Assistant professor, Dept. of Mathematics, BITS Pilani.) Forecasting Wind speed, temperature and Pressure from data obtained from Charanka Power Plant, Gujarat Using ARIMA models and Recurrent Neural Networks with LSTM."
+      },
+      {
+        "title":"Advanced Scheduling Algorithms",
+        "time":"Aug 2016 - Dec 2016",
+        "description":"(Guide: Dr Rakhee, Associate professor, Dept. of Mathematics, BITS Pilani.) Developed a library of scheduling algorithms (operation research) covering single machine, parallel machine and shop scheduling in python"
+      },
+      {
+        "title":"Other Projects",
+        "time":"",
+        "description":" Created a Compiler in C for a dummy language as part of Compiler Construction Course, Implemented DBSCAN using functional programming language Scheme, Wave Generator in Assembly, Algebraic expression simplifier and college constitution in Prolog"
+      }
+      
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user":"Bill Gates"
+      },
+      {
+        "text":"That Aditya Shah must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user":"Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
