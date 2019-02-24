@@ -2,16 +2,16 @@
   "main": {
     "name":"Aditya Shah",
     "occupation":"Student",
-    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "description":"",
     "image":"profilepic.jpg",
-    "bio":"Lorem ipsum dolor sit amet, ei sed labore aliquid eligendi. At agam virtute vix. Ex idque tantas pri. Ea mei probo posidonium instructior, mel id habemus mentitum menandri, an nec dictas legimus deserunt. At quo tale mollis latine, dicat vivendo ius no, in pri labore aliquam noluisse. An hinc omnium fuisset sed.",
+    "bio":"A movie geek at heart, always browsing to sate my appetite for good content, a knack for software development and a passion for data. Into the last semester of my undergraduate degree and using this time to get some exposure and experience in the industry. Have developed interest in Applied Machine Learning and Big Data",
     "contactmessage":"Right now the contact is not service integrated. Please use mail or other medium",
     "email": "adityashah3996@gmail.com",
     "phone": "7689996342",
     "address":{
-      "street":"6 & 7, Samridhi, Wasa Layout",
+      "street":"Marathalli",
       "city":"Bengaluru",
-      "state":"karnataka",
+      "state":"Karnataka",
       "zip": "560037"
     },
     "website": "",
@@ -36,6 +36,11 @@
         "name":"github",
         "url":"https://github.com/Aditya-Shah",
         "className":"fa fa-github"
+      },
+      {
+        "name" : "icheckmovies",
+        "url":"https://www.icheckmovies.com/profiles/aditya+shah/",
+        "className": "fa fa-check-circle"
       }
     ]
   },
@@ -43,16 +48,16 @@
     "skillmessage":"Some technologies I've worked with.",
     "education":[
       {
-        "school":"Birla Institue of Technoilogy and Sciences, Pilani",
+        "school":"Birla Institute of Technology and Sciences, Pilani",
         "degree":"M.Sc. Mathematics and B.E. Computer Science",
         "graduated":"August 2014 - Present",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description":"Innovation in Science Pursuit for Inspired Research (INSPIRE) Scholar by Department of Science and Technology, Government of India"
       },
       {
         "school":"Symbiosis School, Nashik",
-        "degree":"What did you study 101",
+        "degree":"Class X: 99%, Class XII: 94.4%",
         "graduated":"March 2014",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description":"Dhirubhai Ambani SSC Merit Award Scholar"
       }
     ],
     "work":[
@@ -60,7 +65,7 @@
         "company":"Qubole",
         "title":"Intern",
         "years":"July 2018 - Present",
-        "description":"Hive Team"
+        "description":"Working in the Hive Team. Hive is a data warehouse infrastructure tool to process structured data in Hadoop. Key assignments were, building a new feature of Eventual Consistency check ,Improving the initial mapper estimation in Tez execution engine considering Auto-Scaling and Hive Transactions."
       },
       {
         "company":"D.E.Shaw India",
@@ -89,8 +94,12 @@
     ],
     "skills":[
       {
-        "name":"Git",
-        "level":"70%"
+        "name": "Hive",
+        "level": "80%"
+      },
+      {
+        "name": "Hadoop",
+        "level": "80%"
       },
       {
         "name":"Tensorflow",
@@ -103,10 +112,6 @@
       {
         "name":"OpenCV",
         "level":"60%"
-      },
-      {
-        "name":"DataScience",
-        "level":"70%"
       },
       {
         "name":"ReactJS",
