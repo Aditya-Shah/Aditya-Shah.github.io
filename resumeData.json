@@ -88,7 +88,7 @@
       {
         "company":"Bhaskaracharya Institute for Space Applications and Geo-Informatics, Gandhi Nagar",
         "title":"Summer Intern",
-        "years":"May 2018 - July 2018",
+        "years":"May 2016 - July 2016",
         "description":"Worked on Vehicle Detection to analyze traffic flow within the campus. Developed a system in which given a video, vehicles are detected in each frame using SVM and Haar Cascade Algorithm. The system ran on Distributed File System for large-scale data processing using Dumbo API."
       }
     ],
