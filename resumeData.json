@@ -4,7 +4,7 @@
     "occupation":"Student",
     "description":"",
     "image":"profilepic.jpg",
-    "bio":"A movie geek at heart, always browsing to sate my appetite for good content, a knack for software development and a passion for data. Into the last semester of my undergraduate degree and using this time to get some exposure and experience in the industry. Have developed interest in Applied Machine Learning and Big Data",
+    "bio":"A movie geek at heart, always browsing to sate my appetite for good content, a knack for software development and a passion for data. Currently finished my undergraduate degree and working as a software engineer. Have developed interest in Big Data and Information Systems",
     "contactmessage":"Right now the contact is not service integrated. Please use mail or other medium",
     "email": "adityashah3996@gmail.com",
     "phone": "7689996342",
@@ -38,6 +38,11 @@
         "className":"fa fa-github"
       },
       {
+        "name" : "LetterBoxd",
+        "url":"https://letterboxd.com/aditya3996/",
+        "className": "fa fa-film"
+      },
+      {
         "name" : "icheckmovies",
         "url":"https://www.icheckmovies.com/profiles/aditya+shah/",
         "className": "fa fa-check-circle"
@@ -63,32 +68,45 @@
     "work":[
       {
         "company":"Qubole",
+        "title":"Member of Technical Staff",
+        "years":"July 2019 - Present",
+        "description":"Working on transactional capabilities in Hive considering multi-engines like Spark and Presto support."
+      },
+      { 
         "title":"Intern",
-        "years":"July 2018 - Present",
-        "description":"Working in the Hive Team. Hive is a data warehouse infrastructure tool to process structured data in Hadoop. Key assignments were, building a new feature of Eventual Consistency check ,Improving the initial mapper estimation in Tez execution engine considering Auto-Scaling and Hive Transactions."
+        "years":"July 2018 - June 2019",
+        "description":"Working in the Hive Team. Hive is a data warehouse infrastructure tool to process structured data in Hadoop. Key assignments were, building a new feature of Eventual Consistency check, Improving the initial mapper estimation in Tez execution engine considering Auto-Scaling and Hive Transactions."
       },
       {
         "company":"D.E.Shaw India",
         "title":"Summer Intern",
         "years":"May 2018 - July 2018",
         "description":"Evaluated some of the open-source libraries for mobile-specific UI components based on React and Integrated them in the DESCO JavaScript Stack. Setup two full-stack app for InOut (leave management portal) and DESFlow (Request Tracker) mobile revamped version show casing the new UI components."
-      },
+      }
+    ],
+    "guidedWork": [
       {
         "company":"Web Intelligence and Social Computing Lab, BITS Pilani",
         "title":"Research Assistant",
         "years":"August 2017 - December 2017",
-        "description":"Worked under Dr. Yashvardhan Sharma on Event Extraction from code mixed data(Hindi, Malayalam, and Tamil) of social media text."
+        "guide": "Prof. Yashvardhan Sharma, Associate professor, Dept. of Computer Science, BITS Pilani. ",
+        "guideLink": "https://www.bits-pilani.ac.in/pilani/yash/profile",
+        "description":"Worked under on Event Extraction from code mixed data (Hindi, Malayalam, and Tamil) of social media text."
       },
       {
         "company":"NcflexE, IIT Kanpur",
         "title":"Surge Research Intern",
         "years":"May 2017 - July 2017",
-        "description":"Worked under Dr. Deepak Gupta to develop a Cost-Effective Anti-counterfeiting technology. My project involved identifying 3D textures, authenticating images and generating signatures of images for indexing and searching. This was a part of the larger project to commercialize a patented lab implementation to tackle counterfeiting problem for any product that is being sold anywhere, with the plan to move it out of the IITK lab in the form of an independent startup entity."
+        "guide": "Prof. Deepak Gupta, Professor, Materials Science and Engineering, IIT Kanpur.",
+        "guideLink": "http://home.iitk.ac.in/~saboo/",
+        "description":"Worked to develop a Cost-Effective Anti-counterfeiting technology. My project involved identifying 3D textures, authenticating images and generating signatures of images for indexing and searching. This was a part of the larger project to commercialize a patented lab implementation to tackle counterfeiting problem for any product that is being sold anywhere, with the plan to move it out of the IITK lab in the form of an independent startup entity."
       },
       {
         "company":"Bhaskaracharya Institute for Space Applications and Geo-Informatics, Gandhi Nagar",
         "title":"Summer Intern",
         "years":"May 2016 - July 2016",
+        "guide": "DigVijay Singh Chauhan, Project Scientist, BISAG.",
+        "guideLink": "https://bisag.gujarat.gov.in/",
         "description":"Worked on Vehicle Detection to analyze traffic flow within the campus. Developed a system in which given a video, vehicles are detected in each frame using SVM and Haar Cascade Algorithm. The system ran on Distributed File System for large-scale data processing using Dumbo API."
       }
     ],
@@ -124,36 +142,43 @@
     ],
     "projects":[
       {
-        "title":"Adversarial Neural Cryptography",
-        "time":"Aug 2017 - Dec 2017",
-        "description":"Implemented Learning to Protect Communications with Adversarial Neural Cryptography by Martín Abadi, David G. Andersen as a part of the course project"
-      },
-      {
         "title":"Network In Network",
         "time":"Jan 2018 - May 2018",
         "description":"Implemented Networks in networks by Min Lin, Qiang Chen, Shuicheng Yan as a part of course project."
       },
       {
-        "title":"Biometric Iris Recognition for Low Quality Distance Iris Images",
-        "time":"Jan 2017 - May 2017",
-        "description":"(Guide: Prof Kamlesh Tiwari, Assistant professor, Dept. of Computer Science, BITS Pilani.) Used Haar Cascade Classifiers and Histogram of Oriented Gradients (HOG) for eye segmentation followed by thresholding and occlusion removal then using Gabor filters and Hamming Distance for normalization and matching."
-      },
-      {
-        "title":"Forecasting Renewable Energy Resources",
-        "time":"Jan 2018 - May 2018",
-        "description":"(Guide: Sumanta Pasari, Assistant professor, Dept. of Mathematics, BITS Pilani.) Forecasting Wind speed, temperature and Pressure from data obtained from Charanka Power Plant, Gujarat Using ARIMA models and Recurrent Neural Networks with LSTM."
-      },
-      {
-        "title":"Advanced Scheduling Algorithms",
-        "time":"Aug 2016 - Dec 2016",
-        "description":"(Guide: Dr Rakhee, Associate professor, Dept. of Mathematics, BITS Pilani.) Developed a library of scheduling algorithms (operation research) covering single machine, parallel machine and shop scheduling in python"
+        "title":"Adversarial Neural Cryptography",
+        "time":"Aug 2017 - Dec 2017",
+        "description":"Implemented Learning to Protect Communications with Adversarial Neural Cryptography by Martín Abadi, David G. Andersen as a part of the course project"
       },
       {
         "title":"Other Projects",
         "time":"",
         "description":" Created a Compiler in C for a dummy language as part of Compiler Construction Course, Implemented DBSCAN using functional programming language Scheme, Wave Generator in Assembly, Algebraic expression simplifier and college constitution in Prolog"
       }
-      
+    ],
+    "guidedProjects":[
+      {
+        "title":"Forecasting Renewable Energy Resources",
+        "time":"Jan 2018 - May 2018",
+        "guide": "Prof. Sumanta Pasari, Assistant professor, Dept. of Mathematics, BITS Pilani",
+        "guideLink": "https://universe.bits-pilani.ac.in/pilani/sumantapasari/profile",
+        "description":"Forecasting Wind speed, temperature and Pressure from data obtained from Charanka Power Plant, Gujarat Using ARIMA models and Recurrent Neural Networks with LSTM."
+      },
+      {
+        "title":"Biometric Iris Recognition for Low Quality Distance Iris Images",
+        "time":"Jan 2017 - May 2017",
+        "guide": "Prof. Kamlesh Tiwari, Assistant professor, Dept. of Computer Science, BITS Pilani.",
+        "guideLink": "http://ktiwari.in/",
+        "description":"Used Haar Cascade Classifiers and Histogram of Oriented Gradients (HOG) for eye segmentation followed by thresholding and occlusion removal then using Gabor filters and Hamming Distance for normalization and matching."
+      },
+      {
+        "title":"Advanced Scheduling Algorithms",
+        "time":"Aug 2016 - Dec 2016",
+        "guide": "Prof. Rakhee, Associate professor, Dept. of Mathematics, BITS Pilani.",
+        "guideLink": "https://universe.bits-pilani.ac.in/pilani/rakheep/profile",
+        "description":"Developed a library of scheduling algorithms (operation research) covering single machine, parallel machine and shop scheduling in python"
+      }
     ]
   },
   "portfolio":{
