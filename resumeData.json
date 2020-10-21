@@ -15,7 +15,7 @@
       "zip": "560037"
     },
     "website": "",
-    "resumedownload":"https://drive.google.com/file/d/1fd_MnyFu7EWBSU3xQ0TOxabh6cFR093N/view?usp=sharing",
+    "resumedownload":"https://drive.google.com/file/d/1CL0FtEbap1x6kA0DIQi5ekL6jE5I8qM2/view?usp=sharing",
     "social":[
       {
         "name":"facebook",
@@ -70,12 +70,14 @@
         "company":"Qubole",
         "title":"Member of Technical Staff",
         "years":"July 2019 - Present",
-        "description":"Working on transactional capabilities in Hive considering multi-engines like Spark and Presto support."
+        "description":"Worked on transactional capabilities in Hive considering multi-engines like Spark and Presto support. This included designing and optimising for cloud native systems, developing inhouse testing infrastructure, moni- toring, alerting and contributing back to the ",
+        "link": "https://issues.apache.org/jira/browse/HIVE-23804?jql=assignee%20in%20(aditya-shah)",
+        "linkText": "Open Source."
       },
       { 
         "title":"Intern",
         "years":"July 2018 - June 2019",
-        "description":"Working in the Hive Team. Hive is a data warehouse infrastructure tool to process structured data in Hadoop. Key assignments were, building a new feature of Eventual Consistency check, Improving the initial mapper estimation in Tez execution engine considering Auto-Scaling and Hive Transactions."
+        "description":"Worked on Apache Hive, a data warehouse infrastructure tool to process structured data in Hadoop. Key assignments were, add eventual consistency check for object stores, improving the initial mapper estimation in Tez execution engine considering Auto-Scaling and Hive Version Upgrade."
       },
       {
         "company":"D.E.Shaw India",
@@ -112,11 +114,11 @@
     ],
     "skills":[
       {
-        "name": "Hive",
+        "name": "Apache Hive",
         "level": "80%"
       },
       {
-        "name": "Hadoop",
+        "name": "Apache Hadoop",
         "level": "80%"
       },
       {
