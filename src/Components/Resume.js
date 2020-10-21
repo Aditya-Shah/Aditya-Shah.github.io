@@ -13,13 +13,30 @@ class Resume extends Component {
       var work = this.props.data.work.map(function(work){
         return <div key={work.company}><h3>{work.company}</h3>
             <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
-            <p>{work.description}</p>
+            <p>{work.description}<a href={work.link}>{work.linkText}</a></p>
         </div>
       })
+      
+      var guidedWork = this.props.data.guidedWork.map(function(guidedWork){
+        return <div key={guidedWork.company}><h3>{guidedWork.company}</h3>
+            <p className="info">{guidedWork.title}<span>&bull;</span> <em className="date">{guidedWork.years}</em></p>
+            <p>Guide: <a href={guidedWork.guideLink}>{guidedWork.guide}</a><br/>{guidedWork.description}</p>
+        </div>
+      })
+      
+      
       var skills = this.props.data.skills.map(function(skills){
         var className = 'bar-expand '+skills.name.toLowerCase();
         return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
       })
+      
+      var guidedProjects = this.props.data.guidedProjects.map(function(guidedProjects){
+        return <div key={guidedProjects.title}><h3>{guidedProjects.title}</h3>
+            <p className="info"><em className="date">{guidedProjects.time}</em></p>
+            <p>Guide: <a href={guidedProjects.guideLink}>{guidedProjects.guide}</a><br/>{guidedProjects.description}</p>
+        </div>
+      })
+            
       var projects = this.props.data.projects.map(function(projects){
         return <div key={projects.title}><h3>{projects.title}</h3>
             <p className="info"><em className="date">{projects.time}</em></p>
@@ -54,6 +71,7 @@ class Resume extends Component {
 
          <div className="nine columns main-col">
           {work}
+          {guidedWork}
         </div>
     </div>
 
@@ -86,6 +104,7 @@ class Resume extends Component {
          <div className="nine columns main-col">
             <div className="row item">
                <div className="twelve columns">
+                 {guidedProjects}   
                  {projects}
                </div>
             </div>

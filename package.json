@@ -5,9 +5,9 @@
   "homepage": "https://aditya-shah.github.io",
   "dependencies": {
     "gh-pages": "^1.2.0",
-    "jquery": "^3.3.1",
+    "jquery": "^3.4.1",
     "react": "^16.4.1",
-    "react-dom": "^16.4.1",
+    "react-dom": "^16.12.0",
     "react-ga": "^2.5.3",
     "react-scripts": "1.1.4"
   },

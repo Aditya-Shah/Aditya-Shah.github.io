@@ -22,6 +22,7 @@ class Header extends Component {
             <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
             <li><a className="smoothscroll" href="#about">About</a></li>
 	         <li><a className="smoothscroll" href="#resume">Resume</a></li>
+	         <li><a href="https://adityabshah.home.blog/" target="_blank">Blog</a></li>
             {/* <li><a className="smoothscroll" href="#portfolio">Works</a></li>
             <li><a className="smoothscroll" href="#projects">Projects</a></li> */}
             <li><a className="smoothscroll" href="#contact">Contact</a></li>
@@ -32,7 +33,7 @@ class Header extends Component {
       <div className="row banner">
          <div className="banner-text">
             <h1 className="responsive-headline">I'm {name}.</h1>
-            <h3>I'm a senior year student of M.Sc. Mathematics and B.E. Computer Science at Birla Institue of Technology and Sciences, Pilani. Currently interning @ Qubole in Bengaluru </h3>
+            <h3>I'm a Software Developer @ Qubole in Bengaluru. I work on Big Data Technologies </h3>
             <hr />
             <ul className="social">
                {networks}
